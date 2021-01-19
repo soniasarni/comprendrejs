@@ -1,0 +1,65 @@
+
+	
+
+img{
+	margin: 0 auto;
+	height: 50px;
+	visibility: hidden;
+	
+}
+*{
+	border-radius: 30px;
+	padding: 8px;
+	text-align: center;
+}
+
+
+body{
+	min-height: 100vh;
+	transition:.5s;
+}
+.show{
+	visibility: visible;
+}
+#mouseEvent{
+	border: 6px solid salmon;
+	width:220px;
+	position: absolute;
+	left:10%;
+	transform: translateX(-50%);/*50%DE SA TAILLE SE CENTRE SANS CA IL NE SERA PAS COMPLETEMENT CENTRé*/
+	padding: 10px;
+
+}
+.themecontainer{
+	position: fixed;
+	top: 0px;
+}
+.theme{
+	height:30px;
+	width:30px;
+	cursor:pointer;
+
+}
+#dark{
+	background: black;
+
+}
+#salmon{
+	background: salmon;
+
+}
+#yellow{
+	background: yellow;
+
+}
+
+.darktheme{
+	background: black;
+	color:white;
+}.salmontheme{
+	background: salmon;
+
+}.yellowtheme{
+	background: yellow;
+	
+}
